@@ -21,14 +21,14 @@
     </h3>
     {% if author.bio %}
       <p class="author__bio p-note" itemprop="description">
-        {{ author.bio | markdownify | remove: '<p>' | remove: '</p>' }}
+        {{ author.bio }}
       </p>
     {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse" aria-label="Show social media links">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
-    <ul class="author__urls social-icons" role="list" aria-label="Social media links">
+    <h3 class="visually-hidden">Social Media Links</h3>
+    <ul class="author-urls social-icons" role="list" aria-label="Social media links">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.location }}</span>
@@ -53,8 +53,8 @@
 
       {% if author.email %}
         <li>
+          <meta itemprop="email" content="{{ author.email }}" />
           <a href="mailto:{{ author.email }}" rel="me" class="u-email">
-            <meta itemprop="email" content="{{ author.email }}" />
             <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
           </a>
         </li>
