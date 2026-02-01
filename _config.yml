@@ -1,0 +1,177 @@
+# Site Wide Configs
+title: John Skelton
+title_separator: "-"
+# subtitle:
+description: Personal site of John Skelton - AI Governance & Compliance Research Intern at IntegrityStudio, focusing on EU AI Act compliance and cross-border regulatory frameworks.
+url: https://www.johnskelton.com
+locale: en_US
+encoding: utf-8
+google_site_verification: N0i0YZ1-gQvtOicfKEGXEBAcJUyN7gwv0vmVj0lkkbM
+analytics:
+  provider: "google-tag-manager"
+  google:
+    tracking_id: "G-J7TL7PQH7S"
+    anonymize_ip: true
+  google_tag_manager:
+    container_id: "GTM-NR4GGH5K"
+  facebook_pixel:
+    pixel_id: "685721201205820"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+defaults:
+  # posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true
+      author_profile: true
+  # pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      show_date: false
+      breadcrumbs: false
+  # reports
+  - scope:
+      path: ""
+      type: reports
+    values:
+      layout: single
+      breadcrumbs: false
+      author_profile: true
+  # work
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: single
+      breadcrumbs: false
+      author_profile: true
+social:
+  name: John Skelton
+
+
+# Github
+github_username: 	aledlie
+github: 		[metadata]
+repository: 		"aledlie/aledlie.github.io"
+
+# Theme
+
+
+# Jekyll build configuration
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# TEMPORARY: remote_theme disabled during refactoring due to SSL certificate issue
+# Will re-enable after fixing SSL or during Phase 3 deployment simplification
+# remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+permalink:   /:categories/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-include-cache
+
+# Styling
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Exclude from processing
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - mise.toml
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - schema-org-optimizer.md
+  - vendor
+  - .asset-cache
+  - .bundle
+  - SumedhSite
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - Capfile
+  - CHANGELOG
+  - config/Gemfile
+  - config/package.json
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - minimal-mistakes-jekyll.gemspec
+  - node_modules
+  - Rakefile
+  - README
+  - tmp
+  - test_results
+  - tests
+keep_files:
+  - .git
+  - .svn
+
+# Pagination with jekyll-paginate
+paginate: 8 # amount of posts to show
+paginate_path: /page:num/
+
+
+# Author
+author:
+  name: John Skelton
+  avatar: /assets/images/avatar-placeholder.svg
+  bio: AI Governance | International Arbitration | EU Law
+  location: Stockholm | Austin, TX
+  email: isa@integritystudio.ai
+  github: aledlie
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/johnskelton"
+    - label: "IntegrityStudio"
+      icon: "fas fa-fw fa-shield-alt"
+      url: "https://integritystudio.ai"
+    - label: "Stockholm University"
+      icon: "fas fa-fw fa-university"
+      url: "https://www.su.se"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  reports:
+    output: true
+    permalink: /:collection/:path/
+  work:
+    output: true
+    permalink: /work/:path/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

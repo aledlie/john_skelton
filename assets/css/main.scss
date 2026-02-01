@@ -1,0 +1,539 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+@import "variables";
+@import "minimal-mistakes";
+
+/* Clean, minimal styling inspired by reference design */
+
+/* GLOBAL OVERRIDES - Only what differs from theme defaults */
+body {
+  font-size: 16px;
+  line-height: $line-height-base;
+}
+
+/* HEADER - Compact cover images */
+.page-hero {
+  height: $header-image-height;
+  padding-bottom: 0;
+  margin-bottom: $spacing-xl;
+
+  .page-hero-image,
+  img {
+    width: 100%;
+    height: $header-image-height;
+    object-fit: cover;
+  }
+
+  .page-hero-caption {
+    display: none;
+  }
+}
+
+.page-hero-overlay {
+  position: relative;
+  height: $header-image-height;
+  padding-bottom: 0;
+  margin-bottom: $spacing-xl;
+
+  .page-hero-content {
+    display: none;
+  }
+}
+
+/* HEADER BANNER - Red academic banner like target site */
+.masthead {
+  border-bottom: .5px solid $border-light;
+  padding: $spacing-lg 0 1.25em;  /* Balanced from 2em 0 1em */
+}
+
+.greedy-nav {
+  font-family: $heading-font;
+  text-transform: uppercase;
+  text-align: center;
+  background: transparent;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+
+  .site-title {
+    width: 16.6666666667%;
+    margin-right: $grid-col-width;
+    margin-left: 6%;  /* Increased from $grid-col-width to center better */
+    text-align: center;
+  }
+
+  a {
+    color: $white;
+    letter-spacing: 0.05em;  /* Spacing for uppercase */
+    transition: $link-transition;
+
+    &:hover {
+      color: $gray-medium;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: $grid-col-width;
+    margin-left: $grid-col-width;
+
+    a {
+      font-weight: 700;
+      margin-right: $grid-col-width;
+      white-space: nowrap;
+
+      &:hover {
+        border-bottom-color: rgba($white, 0.6);
+      }
+    }
+  }
+}
+
+/* MAIN CONTENT - Constrained width and minimal padding */
+#page-wrapper {
+  max-width: $content-max-width;
+  margin: 0 auto;
+  padding: 0.25rem;
+
+  // At desktop widths, don't clear the sidebar float so content appears beside it
+  @media (min-width: $large) {
+    clear: none !important;
+    margin-top: 0 !important;
+  }
+}
+
+// Fix: Theme's clearfix mixin adds clear:both to #main, pushing it below the sidebar
+// Override this at large screens so main content sits beside the sidebar
+#main {
+  @media (min-width: $large) {
+    clear: none !important;
+  }
+}
+
+.initial-content {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* SIDEBAR - Layout fixes only */
+.sidebar {
+  @media (min-width: $large) {
+    clear: none !important;  /* Allow content to float beside sidebar */
+  }
+}
+
+/* CONTENT HEADINGS - Enhanced for long-form reading */
+.page-content {
+  font-family: $base-font;
+  font-size: 16px;
+  line-height: $line-height-base;
+
+  h1 {
+    font-size: 2em;
+    color: $content-text;
+    border-bottom: 3px solid $accent-blue;
+    padding-bottom: $spacing-xs-px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    color: $gray-medium;
+    font-weight: 500;
+    @include border-light-bottom;
+  }
+
+  p {
+    margin-bottom: $spacing-lg;
+    color: $content-text;
+  }
+
+  a {
+    color: $accent-blue;
+    text-decoration: none;
+    border-bottom: 1px dotted $accent-blue;
+
+    &:hover {
+      border-bottom: 1px solid $accent-blue;
+      color: $accent-blue-dark;
+    }
+  }
+
+  blockquote {
+    border-left: 3px solid $accent-blue;
+    padding-left: 1.5rem;
+    font-style: italic;
+    margin: $spacing-xl 0;
+    color: $gray-darker;
+    background: $bg-light;
+    padding: $spacing-xl;
+    border-radius: $border-radius * 2;
+    text-align: center;
+  }
+
+  /* Special styling for emotional breaks and contemplative spacing */
+  p + p {
+    margin-top: 1.75em;
+  }
+}
+
+/* CODE BLOCKS - Light theme matching site aesthetic */
+div.highlighter-rouge,
+figure.highlight,
+.highlight,
+.highlighter-rouge {
+  background: $code-bg !important;
+  border: 1px solid $border-subtle !important;
+  border-radius: $border-radius !important;
+  padding: 1rem !important;
+  margin: 1.5rem 0 !important;
+  overflow-x: auto !important;
+  font-family: $code-font !important;
+  font-size: $font-size-medium !important;
+  line-height: $line-height-tight !important;
+
+  code {
+    background: transparent !important;
+    color: $text-color !important;
+    font-size: inherit !important;
+  }
+
+  pre,
+  pre.highlight {
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+  }
+}
+
+/* Override dark syntax highlighting colors for light theme */
+.highlight {
+  color: $text-color !important;
+
+  .c { color: $syntax-comment !important; }
+  .k { color: $syntax-keyword !important; }
+  .l { color: $syntax-number !important; }
+  .n { color: $text-color !important; }
+  .o { color: $syntax-operator !important; }
+  .p { color: $text-color !important; }
+  .cm { color: $syntax-comment !important; }
+  .cp { color: $syntax-comment !important; }
+  .c1 { color: $syntax-comment !important; }
+  .cs { color: $syntax-comment !important; }
+  .gd { color: $syntax-error !important; }
+  .ge { font-style: italic !important; }
+  .gr { color: $syntax-error !important; }
+  .gh { color: $syntax-header !important; }
+  .gi { color: $syntax-inserted !important; }
+  .go { color: $syntax-output !important; }
+  .gp { color: $syntax-prompt !important; }
+  .gs { font-weight: bold !important; }
+  .gu { color: $syntax-deleted !important; }
+  .gt { color: $syntax-traceback !important; }
+  .kc { color: $syntax-keyword !important; }
+  .kd { color: $syntax-keyword !important; }
+  .kn { color: $syntax-keyword !important; }
+  .kp { color: $syntax-keyword !important; }
+  .kr { color: $syntax-keyword !important; }
+  .kt { color: $syntax-type !important; }
+  .ld { color: $syntax-error !important; }
+  .m { color: $syntax-number !important; }
+  .s { color: $syntax-string !important; }
+  .na { color: $syntax-attribute !important; }
+  .nb { color: $syntax-number !important; }
+  .nc { color: $syntax-type !important; }
+  .no { color: $syntax-number !important; }
+  .nd { color: $syntax-type !important; }
+  .ni { color: $syntax-deleted !important; }
+  .ne { color: $syntax-function !important; }
+  .nf { color: $syntax-function !important; }
+  .nl { color: $syntax-comment !important; }
+  .nn { color: $syntax-namespace !important; }
+  .nx { color: $text-color !important; }
+  .py { color: $syntax-comment !important; }
+  .nt { color: $syntax-keyword !important; }
+  .nv { color: $syntax-number !important; }
+  .ow { color: $syntax-keyword !important; }
+  .w { color: $syntax-whitespace !important; }
+  .mf { color: $syntax-number !important; }
+  .mh { color: $syntax-number !important; }
+  .mi { color: $syntax-number !important; }
+  .mo { color: $syntax-number !important; }
+  .sb { color: $syntax-string !important; }
+  .sc { color: $syntax-string !important; }
+  .sd { color: $syntax-string !important; }
+  .s2 { color: $syntax-string !important; }
+  .se { color: $syntax-number !important; }
+  .sh { color: $syntax-string !important; }
+  .si { color: $syntax-string !important; }
+  .sx { color: $syntax-string !important; }
+  .sr { color: $syntax-regex !important; }
+  .s1 { color: $syntax-string !important; }
+  .ss { color: $syntax-symbol !important; }
+}
+
+/* INLINE CODE - Compact, subtle styling */
+p code,
+li code,
+td code,
+:not(pre) > code {
+  padding: 0.1em 0.3em !important;
+  margin: 0 !important;
+  font-size: $font-size-small !important;
+  background-color: $code-bg-inline !important;
+  border: 1px solid $border-subtle !important;
+  border-radius: $border-radius-small !important;
+  font-family: $code-font !important;
+  white-space: nowrap !important;
+
+  /* Remove excessive spacing before/after */
+  &::before,
+  &::after {
+    content: none !important;
+    letter-spacing: normal !important;
+  }
+}
+
+/* LANGUAGE PLAINTEXT - Remove all padding */
+.language-plaintext.highlighter-rouge {
+  padding: 0 !important;
+  margin: 0 !important;
+
+  code {
+    padding: 0 !important;
+  }
+}
+
+/* TABLES - Clean, readable styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: $spacing-xl 0;
+  font-size: $font-size-large;
+
+  thead {
+    background: $code-bg;
+    border-bottom: 2px solid $border-medium;
+  }
+
+  th {
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    color: $text-color;
+    font-size: $font-size-large;
+  }
+
+  td {
+    padding: 0.75rem;
+    @include border-light-bottom;
+    color: $gray-darker;
+  }
+
+  tbody tr {
+    &:hover {
+      background: $bg-light;
+    }
+
+    &:last-child td {
+      border-bottom: 1px solid $border-medium;
+    }
+  }
+}
+
+/* STATUS INDICATORS */
+.status-pass { @include status-indicator("✓ ", $status-pass); }
+.status-fail { @include status-indicator("✗ ", $status-fail); }
+.status-warning { @include status-indicator("⚠ ", $status-warning); }
+
+/* INFO BOXES - using notice-box mixin from variables.scss */
+.notice-info {
+  @include notice-box($notice-info-bg, $link-hover, $link-hover);
+  font-size: $font-size-large;
+}
+
+.notice-warning {
+  @include notice-box($notice-warning-bg, $status-warning, $status-warning);
+}
+
+/* ARCHIVE AND PAGE LAYOUT FIXES */
+.page__inner-wrap,
+.archive {
+  margin-top: 0 !important;  /* Remove excessive top spacing */
+}
+
+/* ARCHIVE LISTINGS - Academic post list matching target */
+.archive .list__item,
+.archive .archive__item,
+.list__item,
+.archive__item {
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .archive__item-title {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: $spacing-sm-rem;
+    color: $gray-medium;
+    font-family: $heading-font;
+
+    a {
+      color: $academic-red !important;
+      text-decoration: none !important;
+      border-bottom: none !important;
+      transition: $link-transition;
+
+      &:hover {
+        color: $academic-red-dark !important;
+      }
+    }
+  }
+
+  .archive__item-excerpt {
+    color: $gray-darker;
+    font-size: 1em;
+    line-height: $line-height-relaxed;
+    margin-bottom: $spacing-sm-rem;
+    font-style: italic;
+  }
+
+  .archive__item-date {
+    display: block;
+    color: $gray-lighter;
+    font-size: $font-size-medium;
+    margin-bottom: $spacing-sm-rem;
+    font-style: italic;
+  }
+}
+
+/* Recent Posts heading styling */
+.page__content h2 {
+  color: $academic-red;
+  font-family: $heading-font;
+  font-size: 1.8em;
+  font-style: bold;
+  border-bottom: 2px solid $academic-red;
+}
+
+/* Remove grid from card elements */
+.card .grid {
+  display: block !important;
+}
+
+.card .grid > div {
+  margin-bottom: 1rem;
+}
+
+/* SINGLE POST - Enhanced typography */
+.single {
+  .page-title {
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: $spacing-md;
+    line-height: 1.2;
+  }
+
+  .page-meta {
+    color: $gray-lighter;
+    font-size: $font-size-medium;
+    margin-bottom: $spacing-xl;
+    @include border-light-bottom;
+  }
+}
+
+/* GLOBAL LINK OVERRIDES - Clean black text */
+a {
+  color: $text-color !important;  /* WCAG AA contrast (7.7:1 on white) */
+  text-decoration: none !important;
+
+  &:hover {
+    color: $link-hover !important;
+  }
+}
+
+/* FOOTER - Clean styling (WCAG colors defined in _footer.scss) */
+.page-footer {
+  @include border-light-top;
+  padding: $spacing-xl 0;
+  text-align: center;
+}
+
+/* SOCIAL SHARING */
+.page-share {
+  @include border-light-top;
+  padding-top: $spacing-lg;
+  margin-top: $spacing-xl;
+
+  .btn {
+    margin-right: $spacing-sm-rem;
+    margin-bottom: $spacing-sm-rem;
+  }
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: $large-wide) {
+  #page-wrapper {
+    padding: 0.25rem;
+  }
+
+  .page-content {
+    padding: 0 0.25rem;
+  }
+}
+
+@media (max-width: $medium) {
+  .greedy-nav {
+    padding: 0.1rem 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .site-title {
+      margin-right: 0;
+      margin-bottom: 0.1rem;
+      font-size: 1.2em;
+    }
+
+    .visible-links {
+      gap: 0.02rem;
+
+      a {
+        padding: 0.1rem 0.2rem;
+        font-size: $font-size-medium;
+        font-weight: 900;
+      }
+    }
+  }
+
+  .single .page-title {
+    font-size: 1.8em;
+  }
+
+  .archive .list__item .archive__item-title {
+    font-size: 1.2em;
+  }
+
+  .page-content {
+    font-size: $font-size-mobile;
+    line-height: $line-height-relaxed;
+    padding: 1rem;
+
+    p {
+      margin-bottom: 1.25em;
+    }
+
+    p + p {
+      margin-top: $spacing-lg;
+    }
+  }
+}
+
+/* Breadcrumb separator fix for accessibility */
+.breadcrumbs li:not(:last-child)::after {
+  content: " / ";
+  padding: 0 0.25em;
+}
