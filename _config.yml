@@ -134,21 +134,21 @@ paginate_path: /page:num/
 # Author
 author:
   name: John Skelton
-  avatar: /assets/images/avatar-placeholder.svg
-  bio: AI Governance | International Arbitration | EU Law
-  location: Stockholm | Austin, TX
-  email: isa@integritystudio.ai
+  avatar: /assets/images/bio-photo.jpg
+  bio: Head of Policy at IntegrityStudio.ai | Public Policy MPP Candidate
+  location: Austin, TX
+  email: john@integritystudio.ai
   github: aledlie
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/johnskelton"
+      url: "https://linkedin.com/in/john-skelton-a7b0a51a2"
     - label: "IntegrityStudio"
       icon: "fas fa-fw fa-shield-alt"
       url: "https://integritystudio.ai"
-    - label: "Stockholm University"
+    - label: "Colorado State University"
       icon: "fas fa-fw fa-university"
-      url: "https://www.su.se"
+      url: "https://www.colostate.edu"
 
 # Collections
 collections:

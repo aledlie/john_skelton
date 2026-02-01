@@ -1,95 +1,76 @@
 ---
 layout: single
-title: "About John Skelton | AI Governance & International Arbitration"
-excerpt: "John Skelton combines EU AI Act expertise with international arbitration knowledge. AI Governance Research Intern at IntegrityStudio, LLM candidate at Stockholm University, quadrilingual legal analyst specializing in cross-border compliance."
+title: "About John Skelton | AI Policy & Public Governance"
+excerpt: "John Skelton is Head of Policy at IntegrityStudio.ai and Master's candidate in Public Policy at Colorado State University, focused on the intersection of governance, technology, and data-driven decision-making."
 permalink: /about/
 author_profile: true
 breadcrumbs: false
 schema_type: person
 ---
 
-AI regulation is being written today, and I help organizations navigate it.
+I work at the intersection of policy, technology, and governance—helping organizations navigate the complex relationship between AI innovation and responsible governance.
 
-As an **AI Governance & Compliance Research Intern** at IntegrityStudio.ai, I develop cross-border compliance frameworks for enterprise LLM deployments. My foundation in **International and European Law** (University of Groningen) combined with specialized training in **International Commercial Arbitration** (Stockholm University) positions me at the intersection of AI governance, dispute resolution, and regulatory compliance.
+As **Head of Policy at IntegrityStudio.ai**, I bring a public policy perspective to technology governance, shaping how our platform helps organizations make responsible decisions about AI systems. My background in legislative analysis combined with graduate work in public policy positions me to translate between the worlds of policy and technology.
 
-**What I bring:** Quadrilingual legal analysis (German, Spanish, English, French) with direct access to primary regulatory sources across EU member states.
+**What drives my work:** A conviction that good policy and good technology make each other better. The most sophisticated compliance system is useless without clear policy framework. The best policy is hollow without technical implementation. I'm passionate about building bridges between these disciplines.
 
 ## Focus Areas
 
-### AI Governance & The EU AI Act
+### AI Policy & Governance
 
-The legal frameworks governing AI are being written now, and I want to help shape them. My coursework on the EU AI Act revealed how profoundly AI will transform legal practice, from contract analysis to dispute resolution. This is not a distant future; the AAA-ICDR launched its first AI arbitrator in November 2025, and the ICC has established a Task Force examining AI in arbitration proceedings.
+Technology regulation is being written in real time—in legislatures, agencies, and corporate board rooms. I'm interested in how policy can enable innovation while managing genuine risks. This means understanding both the technical capabilities of AI systems and the policy mechanisms that shape how they're deployed.
 
-### AI in Dispute Resolution
+### Public Policy & Technology
 
-International arbitration is at an inflection point. The launch of AI-native arbitrators, AI-assisted document review, and predictive analytics tools raises fundamental questions about due process, transparency, and enforceability. My legal training provides the procedural foundation to analyze these questions rigorously.
+The intersection of governance and innovation is where the real work happens. I'm focused on how organizations can think strategically about regulatory compliance, governance structures, and technology architecture simultaneously—not as separate problems but as integrated challenges.
 
-### Cross-Border Compliance
+### Legislative Analysis & Policy Research
 
-Legal analysis of AI regulation cannot rely solely on English-language sources. The German Bundestag, Spanish Cortes, and French Assemblée nationale are each shaping how the EU AI Act applies domestically. I can access these primary sources directly, providing analysis that captures nuances lost in translation.
-
-## Languages
-
-| Language | Level | Professional Application |
-|----------|-------|-------------------------|
-| German | Native | Legal research, regulatory analysis (BaFin, BfDI) |
-| Spanish | Native | Compliance documentation, AEPD/CNMV sources |
-| English | C2 | Primary working language |
-| French | B1 | Reading comprehension for CNIL, regulatory texts |
+My experience at the Texas Legislative Council gave me deep insight into how policy gets made: the research that informs it, the constraints that shape it, and the gap between policy intent and implementation. I bring that perspective to technology governance.
 
 ## Experience
 
-- **AI Governance & International Compliance Research Intern** - IntegrityStudio.ai *(Current)*
-  - See Current Project below for details
+- **Head of Policy** - IntegrityStudio.ai *(Current)*
+  - Leading policy strategy for AI governance platform
+  - Advising on regulatory compliance and product-policy alignment
+  - Building frameworks for responsible AI deployment
 
-- **Legal Researcher** - A for Arbitration
-  - Analyzed complex cross-border disputes and translated findings into practical guidance
+- **Bill Analyst** - Texas Legislative Council
+  - Conducted in-depth policy review and analysis
+  - Supported legislative process through evidence-based research
+  - Developed expertise in how policy translates to implementation
 
-- **Antitrust Global Virtual Internship** - Clifford Chance
-  - Exposure to how leading firms approach regulatory compliance at scale
+## Current Focus
 
-- **Public Relations** - Amnesty International
-  - Stakeholder communication and public-facing content development
+I'm pursuing a **Master's degree in Public Policy & Administration at Colorado State University**, with focus on how technology shapes governance and how governance shapes technology.
 
-## Current Project: IntegrityStudio Capstone
-
-**"Cross-Border AI Compliance: Building an International Dispute Resolution Framework for Enterprise LLM Governance"**
-
-I'm currently completing a capstone internship at IntegrityStudio.ai, developing comprehensive compliance frameworks for multinational enterprises deploying LLMs across jurisdictions.
-
-### Technical & International Arbitration Track
-
-- **OpenTelemetry**: Platform architecture and observability tooling for AI systems
-- **AI Evaluation**: Technical sessions on LLM evaluation methodologies with the Data Science team
-- **Product-Compliance Integration**: Translating legal requirements into product features
-- **Arbitration Readiness**: Evidence preservation schemas and dispute-ready audit trails
-
-### Deliverables
-
-- Regulatory Mapping Report (EU AI Act, GDPR, national implementations across 6+ jurisdictions)
-- Multi-Jurisdictional Compliance Matrix
-- Model Contractual Clauses for AI service agreements
-- AI Arbitration Readiness Protocol with evidence chain-of-custody specifications
-- White paper on observability platforms for AI dispute resolution
+Recent developments:
+- Building policy frameworks for AI observability and governance
+- Researching how organizations can integrate compliance and technology architecture
+- Exploring the intersection of data-driven decision-making and democratic governance
+- Advising IntegrityStudio on product-policy alignment
 
 ## Education
 
-- **LLM International Commercial Arbitration** - Stockholm University
-  - Focus: AI governance, dispute resolution, EU AI Act
+- **Master's in Public Policy & Administration** - Colorado State University *(Current)*
+  - Focus: Technology governance, policy implementation, data-driven decision-making
 
-- **LLB International and European Law** - University of Groningen
-  - Foundation in EU regulatory frameworks and cross-border legal analysis
+- **Accepted:** Energy and Earth Resources Master's Program - University of Texas at Austin
 
-## Career Vision
+## Interests & Career Vision
 
-I want to build a career at the intersection of international dispute resolution and AI governance. My target paths include roles at arbitral institutions like the **ICC**, **LCIA**, or **SCC**, policy organizations such as the **European Commission's AI Office** or **IAPS**, and AI companies with dedicated governance functions like **OpenAI** or **Jus Mundi**.
+I'm passionate about building a career where policy and technology inform each other. The most interesting problems at the intersection of AI and governance require expertise in both domains—understanding what's technically possible AND what policy frameworks actually enable.
 
-Whether advising companies on compliance, helping arbitral institutions adapt to technological change, or contributing to policy development, I see legal expertise as essential to ensuring AI benefits society broadly.
+Areas of particular interest:
+- How organizations can embed governance into technology architecture
+- Policy mechanisms that encourage responsible innovation rather than just preventing harms
+- Data-driven decision-making in public and private governance
+- Building compliance and governance infrastructure that scales
 
 ## Connect
 
-I'm always interested in discussing AI governance, international arbitration, or collaboration opportunities.
+I'm always interested in discussing AI governance, public policy, or how organizations think about the policy-technology nexus.
 
-- **Email:** [isa@integritystudio.ai](mailto:isa@integritystudio.ai)
-- **LinkedIn:** [linkedin.com/in/johnskelton](https://linkedin.com/in/johnskelton)
-- **Location:** Stockholm, Sweden | Austin, TX
+- **Email:** [john@integritystudio.ai](mailto:john@integritystudio.ai)
+- **LinkedIn:** [linkedin.com/in/john-skelton-a7b0a51a2](https://linkedin.com/in/john-skelton-a7b0a51a2)
+- **Location:** Austin, TX
