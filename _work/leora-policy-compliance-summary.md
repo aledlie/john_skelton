@@ -1,20 +1,27 @@
 ---
 title: "Leora Home Health: Policy & Compliance Framework for Employee Referral Programs"
 date: 2026-01-31
-author: "Policy Analysis"
+author: "John Skelton"
+author_title: "Policy Analyst"
 categories: [healthcare, compliance, HR policy]
-tags: [home health, employee referral, regulatory compliance, HR best practices]
+tags: [home health, employee referral, regulatory compliance, HR best practices, policy analysis]
 ---
 
 # Leora Home Health: Policy & Compliance Framework
 
+*By John Skelton, Policy Analyst at Integrity Studio*
+
 A policy and compliance analysis of the Leora Home Health employee referral program, focusing on regulatory alignment, risk mitigation, and best practice governance.
+
+My work at the intersection of policy and technology has consistently reinforced one insight: the most effective compliance frameworks are those designed with implementation in mind from the start. This analysis applies that lens to a healthcare recruitment challenge, examining how policy structure can enable organizational goals while managing regulatory risk.
 
 ---
 
 ## Executive Summary
 
-Leora Home Health, a nurse-owned home health care provider in Austin, Texas, has developed a comprehensive employee referral program to address the industry's 79.2% turnover crisis. This analysis examines the program through a policy and compliance lens, identifying strengths, potential gaps, and recommendations for regulatory alignment.
+Leora Home Health, a nurse-owned home health care provider in Austin, Texas, has developed a comprehensive employee referral program to address the industry's 79.2% turnover crisis. This analysis examines the program through a policy and compliance lens—drawing on my experience in legislative analysis at the Texas Legislative Council and current work in technology governance—to identify strengths, potential gaps, and recommendations for regulatory alignment.
+
+What makes this analysis distinct is its focus on the gap between policy intent and implementation—a challenge I've seen repeatedly in both legislative and corporate contexts. Good policy on paper means little without clear pathways to execution.
 
 **Key Compliance Areas Covered:**
 - Employment law compliance (EEOC, FLSA, state labor laws)
@@ -82,6 +89,9 @@ The program appropriately addresses termination of benefits when:
 ### 2.3 State Labor Law (Texas)
 
 **Texas-Specific Considerations:**
+
+From my time at the Texas Legislative Council, I gained firsthand insight into how Texas labor law operates in practice. The state's strong at-will employment framework provides employers significant flexibility, but also requires careful attention to documentation.
+
 - At-will employment maintained throughout program terms
 - No implied contract created through bonus structure
 - Clear reservation of rights to modify program with notice
@@ -296,6 +306,8 @@ Maintain documentation for:
 2. **Benchmark Against Industry Standards:** Compare to Joint Commission, CMS requirements
 3. **Integration with Compliance Management System:** Centralize documentation and reporting
 
+This last point reflects a broader principle I emphasize in my work: governance infrastructure should scale. Building compliance into organizational systems—rather than treating it as a periodic audit exercise—creates sustainable frameworks that grow with the organization.
+
 ---
 
 ## Conclusion
@@ -314,7 +326,11 @@ Areas requiring enhanced attention include:
 
 With the recommended enhancements, the program can serve as a model for compliant, effective healthcare recruitment that addresses the industry's turnover crisis while maintaining regulatory alignment.
 
+What this analysis underscores is a theme central to my work: policy and implementation must be designed together. The most sophisticated compliance framework is hollow without clear operational pathways, and the best operational practices need policy scaffolding to ensure consistency and accountability. Leora Home Health has built a strong foundation—the opportunity now is to embed governance into the program's architecture so compliance scales naturally with growth.
+
 ---
+
+*John Skelton is a Policy Analyst at Integrity Studio and Master's candidate in Public Administration at Colorado State University, focused on the intersection of governance, technology, and data-driven decision-making. He previously served as a Bill Analyst at the Texas Legislative Council.*
 
 *Analysis based on Leora Home Health referral program documentation, November 2025*
 *Policy framework aligned with EEOC, FLSA, CMS, and Texas state labor law requirements*
