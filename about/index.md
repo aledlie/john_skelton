@@ -1,24 +1,24 @@
 ---
 layout: single
-title: "About John Skelton | AI Policy & Public Governance"
-excerpt: "John Skelton is Head of Policy at IntegrityStudio.ai and Master's candidate in Public Policy at Colorado State University, focused on the intersection of governance, technology, and data-driven decision-making."
+title: "Policy & Technology"
+excerpt: "John Skelton is a Policy Analyst at Integrity Studio and Master's candidate in Public Administration at Colorado State University, focused on the intersection of governance, technology, and data-driven decision-making."
 permalink: /about/
 author_profile: true
 breadcrumbs: false
 schema_type: person
 ---
 
-I work at the intersection of policy, technology, and governance—helping organizations navigate the complex relationship between AI innovation and responsible governance.
+I work at the intersection of policy, technology, and governance—helping organizations navigate the complex relationship between AI innovation and responsible decision-making.
 
-As **Head of Policy at IntegrityStudio.ai**, I bring a public policy perspective to technology governance, shaping how our platform helps organizations make responsible decisions about AI systems. My background in legislative analysis combined with graduate work in public policy positions me to translate between the worlds of policy and technology.
+As a **Policy Analyst at Integrity Studio**, I bring a public policy perspective to technology governance, contributing to strategy and operations at this Austin-based tech startup. My background in legislative analysis combined with graduate work in public administration positions me to translate between the worlds of policy and technology.
 
-**What drives my work:** A conviction that good policy and good technology make each other better. The most sophisticated compliance system is useless without clear policy framework. The best policy is hollow without technical implementation. I'm passionate about building bridges between these disciplines.
+**What drives my work:** A conviction that good policy and good technology make each other better. The most sophisticated compliance system is useless without a clear policy framework. The best policy is hollow without technical implementation. I'm passionate about building bridges between these disciplines.
 
 ## Focus Areas
 
 ### AI Policy & Governance
 
-Technology regulation is being written in real time—in legislatures, agencies, and corporate board rooms. I'm interested in how policy can enable innovation while managing genuine risks. This means understanding both the technical capabilities of AI systems and the policy mechanisms that shape how they're deployed.
+Technology regulation is being written in real time—in legislatures, agencies, and corporate boardrooms. I'm interested in how policy can enable innovation while managing genuine risks. This means understanding both the technical capabilities of AI systems and the policy mechanisms that shape how they're deployed.
 
 ### Public Policy & Technology
 
@@ -30,38 +30,38 @@ My experience at the Texas Legislative Council gave me deep insight into how pol
 
 ## Experience
 
-- **Head of Policy** - IntegrityStudio.ai *(Current)*
-  - Leading policy strategy for AI governance platform
-  - Advising on regulatory compliance and product-policy alignment
-  - Building frameworks for responsible AI deployment
+- **Policy Analyst** - Integrity Studio *(Aug 2025 - Present)*
+  - Contributing to strategy and operations with a public policy perspective
+  - Supporting AI governance and compliance initiatives
+  - Building frameworks for responsible technology deployment
 
-- **Bill Analyst** - Texas Legislative Council
+- **Associate** - Texas Realty Partners *(Feb 2023 - Sep 2025)*
+  - Gained practical experience in commercial real estate operations
+  - Developed skills in relationship management and project coordination
+
+- **Bill Analyst** - Texas Legislative Council *(Aug 2022 - Feb 2023)*
   - Conducted in-depth policy review and analysis
   - Supported legislative process through evidence-based research
   - Developed expertise in how policy translates to implementation
 
-## Current Focus
-
-I'm pursuing a **Master's degree in Public Policy & Administration at Colorado State University**, with focus on how technology shapes governance and how governance shapes technology.
-
-Recent developments:
-- Building policy frameworks for AI observability and governance
-- Researching how organizations can integrate compliance and technology architecture
-- Exploring the intersection of data-driven decision-making and democratic governance
-- Advising IntegrityStudio on product-policy alignment
-
 ## Education
 
-- **Master's in Public Policy & Administration** - Colorado State University *(Current)*
+- **Master of Public Administration** - Colorado State University *(Expected May 2026)*
+  - Concentration: International/Global Studies
   - Focus: Technology governance, policy implementation, data-driven decision-making
 
-- **Accepted:** Energy and Earth Resources Master's Program - University of Texas at Austin
+- **Bachelor of Arts, International Studies** - Colorado State University *(2018 - 2022)*
+  - Concentration: Western European Studies
+  - Activities: Sigma Chi, College Democrats of CSU
 
-## Interests & Career Vision
+## Skills & Languages
 
-I'm passionate about building a career where policy and technology inform each other. The most interesting problems at the intersection of AI and governance require expertise in both domains—understanding what's technically possible AND what policy frameworks actually enable.
+- **Research:** Qualitative research, policy analysis, legislative research, scientific research
+- **Communication:** Presentation skills, writing, relationship development
+- **Languages:** English, Spanish
 
-Areas of particular interest:
+## Areas of Interest
+
 - How organizations can embed governance into technology architecture
 - Policy mechanisms that encourage responsible innovation rather than just preventing harms
 - Data-driven decision-making in public and private governance
@@ -71,6 +71,6 @@ Areas of particular interest:
 
 I'm always interested in discussing AI governance, public policy, or how organizations think about the policy-technology nexus.
 
-- **Email:** [john@integritystudio.ai](mailto:john@integritystudio.ai)
+- **Email:** [johnaskelton@gmail.com](mailto:johnaskelton@gmail.com)
 - **LinkedIn:** [linkedin.com/in/john-skelton-a7b0a51a2](https://linkedin.com/in/john-skelton-a7b0a51a2)
 - **Location:** Austin, TX
