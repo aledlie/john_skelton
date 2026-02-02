@@ -6,6 +6,8 @@ permalink: /about/
 author_profile: true
 breadcrumbs: false
 schema_type: person
+header:
+  image: /assets/images/cover-about.webp
 ---
 
 I work at the intersection of policy, technology, and governance—helping organizations navigate the complex relationship between AI innovation and responsible decision-making.

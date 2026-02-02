@@ -11,8 +11,6 @@ header:
   teaser: /assets/images/cover-reports.png
 ---
 
-# John Skelton Site Setup: Domain, GitHub Pages, and Compliance Documentation
-
 **Session Date**: 2026-01-31<br>
 **Project**: john_skelton (Personal Site)<br>
 **Focus**: Infrastructure setup and documentation enhancement<br>
