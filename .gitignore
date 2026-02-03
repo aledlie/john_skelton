@@ -6,6 +6,7 @@ _site/
 Gemfile.lock
 
 # Testing
+test-results/
 tests/test-results/
 tests/playwright-report/
 tests/performance/results/
@@ -33,6 +34,7 @@ __pycache__/
 
 # Project-specific
 schema_org_optimizer.md
+content/summary.md
 drafts/
 
 # macOS
