@@ -15,7 +15,8 @@
     "test:performance": "node tests/performance/lighthouse.js",
     "test:performance:clean": "find tests/performance/results -name 'lighthouse-results-*.json' -type f | sort | head -n -3 | xargs rm -f",
     "test:all": "npm run build && npm run test && npm run test:e2e && npm run test:performance",
-    "test:ci": "npm run build && jest --ci --coverage && playwright test --config config/playwright.config.js --reporter=github"
+    "test:ci": "npm run build && jest --ci --coverage && playwright test --config config/playwright.config.js --reporter=github",
+    "test:links": "node tests/links/check-links.js"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",
