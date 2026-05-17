@@ -1,0 +1,18 @@
+{% if site.analytics.reports_ga4.measurement_id %}
+{%- assign reports_ga4_id = site.analytics.reports_ga4.measurement_id -%}
+<!-- Reports GA4 ({{ reports_ga4_id }}) — shared property with integritystudio.io -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ reports_ga4_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    wait_for_update: 500
+  });
+  gtag('js', new Date());
+  gtag('config', '{{ reports_ga4_id }}', { anonymize_ip: true });
+</script>
+{% endif %}

@@ -14,6 +14,8 @@ analytics:
     anonymize_ip: true
   google_tag_manager:
     container_id: "GTM-NR4GGH5K"
+  reports_ga4:
+    measurement_id: "G-YXLT76BTM4"
   facebook_pixel:
     pixel_id: "685721201205820"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
